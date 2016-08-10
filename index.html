@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="UTF-8">
+    <title>BSCpE MSU-IIT</title>
+    <!-- Jquery library. -->
+    <script src="lib/jquery.min.js"></script>
+    <!-- Flipclock library. -->
+    <link rel="stylesheet" href="lib/FlipClock-master/compiled/flipclock.css">
+    <script src="lib/FlipClock-master/compiled/flipclock.js"></script>
+    <!-- Bootstrap library. -->
+    <link rel="stylesheet" href="lib/bootstrap-3.3.7-dist/css/bootstrap.css">
+    <script src="lib/bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+    <!-- Animate library. -->
+    <link rel="stylesheet" href="lib/css/animate.css">
+    <!-- Index library. -->
+    <link rel="stylesheet" href="lib/css/index.css">
+    <script src="lib/js/index.js"></script>
+
+
+</head>
+<body>
+
+<div class="container">
+    <div id="clockui" class="clock"></div>
+
+</div>
+
+<div class="container">
+   <div class="row">
+       <div class="col-xs-12 message">
+           <div class="alert alert-danger text-center animated infinite bounce" role="alert">
+
+           </div>
+       </div>
+   </div>
+</div>
+
+<div id="optionui" class="text-center container-fluid navbar-fixed-bottom">
+    <div class="row">
+        <div class="col-xs-12">
+            <button id="startgeneral" class="btn btn-default general">START</button>
+            <button id="stopgeneral" class="btn btn-default general">STOP</button>
+            <button id="resetgeneral" class="btn btn-default general">RESET</button>
+
+            <button id="start" class="btn btn-default countdown">START</button>
+            <button id="stop" class="btn btn-default countdown">PAUSE</button>
+            <button id="reset" class="btn btn-default countdown">SET</button>
+            <input id="timing" type="number" class="input-sm countdown" placeholder="Set time seconds.">
+            <span class="dropdown">
+                <select id="selecttype" class="btn btn-default">
+                    <option value="1" selected="selected">Countdown Timer</option>
+                    <option value="2">General Counter</option>
+                </select>
+            </span>
+            <button id="fullscreen" class="btn btn-default">SET FULLSCREEN</button>
+        </div>
+        <div id="aboutdev" class="text-left col-xs-12">
+            Developed by <span class="iit">MSU-IIT</span> <span class="cpe">BSCpE</span> Team <a id="lemmeister" href="https://facebook.com/lemueljay.vallinas">Lemmeister</a>. Copyright of 2016. All rights reserved.
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>

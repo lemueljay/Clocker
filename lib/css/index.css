@@ -1,0 +1,54 @@
+#clockui {
+    margin-top: 300px;
+    margin-left: 1025px;
+    -webkit-transform: scale(3);
+}
+
+#optionui {
+    padding: 10px;
+}
+
+#optionui .row div:first-child {
+    margin-bottom: 40px;
+}
+
+select:hover {
+    cursor: pointer;
+}
+
+#aboutdev {
+    color: #cbcbcb;
+}
+
+#lemmeister {
+    cursor: pointer;
+    text-decoration: none;
+    color: #cbcbcb;
+    font-weight: bolder;
+
+}
+
+#lemmeister:hover {
+    color: #0D3349;
+}
+
+.iit {
+    color: #9e0101;
+    font-weight: lighter;
+    }
+
+.cpe {
+    color: #9e0101;
+    font-weight: 900;
+}
+
+.alert-danger {
+    color: #eeeeee;
+    background-color: #b01818;
+    border-color: #8d1111;
+}
+
+.message {
+    margin-top: 150px;
+    font-size: 25px;
+}
